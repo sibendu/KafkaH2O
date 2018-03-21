@@ -3,5 +3,4 @@ build:
   steps:
     - java/maven:
       goals: clean install
-      settings: my-settings.xml
       profiles: prod
