@@ -11,6 +11,5 @@ push:
     - internal/docker-push: 
         username: $DOCKER_USERNAME
         password: $DOCKER_PASSWORD
-        tag: $DOCKER_TAG
+        tag:  $DOCKER_TAG
         repository: $DOCKER_REPOSITORY
-        registry: $DOCKER_REGISTRY
